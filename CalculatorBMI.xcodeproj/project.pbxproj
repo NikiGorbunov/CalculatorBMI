@@ -13,6 +13,9 @@
 		4D440C4127B6CB1C0089C31B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D440C3F27B6CB1C0089C31B /* Main.storyboard */; };
 		4D440C4327B6CB1D0089C31B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D440C4227B6CB1D0089C31B /* Assets.xcassets */; };
 		4D440C4627B6CB1D0089C31B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D440C4427B6CB1D0089C31B /* LaunchScreen.storyboard */; };
+		4D440C5427B6F2480089C31B /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D440C5327B6F2480089C31B /* NibLoadable.swift */; };
+		4D440C5727B6F3B40089C31B /* TestComponent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D440C5627B6F3B40089C31B /* TestComponent.xib */; };
+		4D440C5927B6F3FA0089C31B /* TestComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D440C5827B6F3FA0089C31B /* TestComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		4D440C4227B6CB1D0089C31B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D440C4527B6CB1D0089C31B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D440C4727B6CB1D0089C31B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D440C5327B6F2480089C31B /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		4D440C5627B6F3B40089C31B /* TestComponent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestComponent.xib; sourceTree = "<group>"; };
+		4D440C5827B6F3FA0089C31B /* TestComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		4D440C3827B6CB1C0089C31B /* CalculatorBMI */ = {
 			isa = PBXGroup;
 			children = (
+				4D440C5227B6F1DE0089C31B /* Components */,
 				4D440C5127B6CB960089C31B /* ViewControllers */,
 				4D440C5027B6CB8C0089C31B /* Models */,
 				4D440C4F27B6CB6A0089C31B /* Storyboards */,
@@ -105,6 +112,24 @@
 				4D440C3D27B6CB1C0089C31B /* ViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4D440C5227B6F1DE0089C31B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4D440C5527B6F2BF0089C31B /* TestComponent */,
+				4D440C5327B6F2480089C31B /* NibLoadable.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4D440C5527B6F2BF0089C31B /* TestComponent */ = {
+			isa = PBXGroup;
+			children = (
+				4D440C5627B6F3B40089C31B /* TestComponent.xib */,
+				4D440C5827B6F3FA0089C31B /* TestComponent.swift */,
+			);
+			path = TestComponent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D440C5727B6F3B40089C31B /* TestComponent.xib in Resources */,
 				4D440C4627B6CB1D0089C31B /* LaunchScreen.storyboard in Resources */,
 				4D440C4327B6CB1D0089C31B /* Assets.xcassets in Resources */,
 				4D440C4127B6CB1C0089C31B /* Main.storyboard in Resources */,
@@ -178,7 +204,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D440C5927B6F3FA0089C31B /* TestComponent.swift in Sources */,
 				4D440C3E27B6CB1C0089C31B /* ViewController.swift in Sources */,
+				4D440C5427B6F2480089C31B /* NibLoadable.swift in Sources */,
 				4D440C3A27B6CB1C0089C31B /* AppDelegate.swift in Sources */,
 				4D440C3C27B6CB1C0089C31B /* SceneDelegate.swift in Sources */,
 			);
