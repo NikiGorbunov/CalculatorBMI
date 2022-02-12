@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -8,42 +8,120 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Select Age View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CalculatorBMI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SelectAgeViewController" customModule="CalculatorBMI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OOt-bh-pkT" customClass="TestComponent" customModule="CalculatorBMI" customModuleProvider="target">
-                                <rect key="frame" x="57" y="373" width="300" height="150"/>
-                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="1Z3-UT-R8l"/>
-                                    <constraint firstAttribute="height" constant="150" id="Eng-bv-TiZ"/>
-                                </constraints>
-                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="j1N-LQ-u1F">
+                                <rect key="frame" x="67" y="106.5" width="186" height="267"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="esR-Ec-1TT" customClass="AgeButton" customModule="CalculatorBMI" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="186" height="29.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q1I-OD-gis" customClass="AgeButton" customModule="CalculatorBMI" customModuleProvider="target">
+                                                <rect key="frame" x="-8" y="0.0" width="186" height="29.5"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                                <color key="tintColor" systemColor="systemIndigoColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="text" value="0-13 НЕДЕЛЬ"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <color key="tintColor" systemColor="systemIndigoColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="text" value="0-13 НЕДЕЛЬ"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dUH-8u-t3h" customClass="AgeButton" customModule="CalculatorBMI" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="59.5" width="186" height="29.5"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <color key="tintColor" systemColor="systemIndigoColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="text" value="0-2 ЛЕТ"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gTT-nP-4z5" customClass="AgeButton" customModule="CalculatorBMI" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="119" width="186" height="29"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <color key="tintColor" systemColor="systemIndigoColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="text" value="2-5 ЛЕТ"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hg1-BR-pWa" customClass="AgeButton" customModule="CalculatorBMI" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="178" width="186" height="29.5"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <color key="tintColor" systemColor="systemIndigoColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="text" value="5-19 ЛЕТ"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GFH-3i-44b" customClass="AgeButton" customModule="CalculatorBMI" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="237.5" width="186" height="29.5"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <color key="tintColor" systemColor="systemIndigoColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="text" value="19+ ЛЕТ (ВЗРОСЛЫЙ)"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.69749342280000004" green="0.57502162400000001" blue="0.89789384660000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="OOt-bh-pkT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9D9-24-ffa"/>
-                            <constraint firstItem="OOt-bh-pkT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Q6o-5t-KCL"/>
+                            <constraint firstItem="j1N-LQ-u1F" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="U27-ni-zJA"/>
+                            <constraint firstItem="j1N-LQ-u1F" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.57971" id="ffx-pc-lrC"/>
+                            <constraint firstItem="j1N-LQ-u1F" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="vGa-7o-if6"/>
+                            <constraint firstItem="j1N-LQ-u1F" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.555804" id="ve0-UH-mdJ"/>
                         </constraints>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outletCollection property="buttons" destination="Q1I-OD-gis" collectionClass="NSMutableArray" id="YaB-Mv-Hhj"/>
+                        <outletCollection property="buttons" destination="dUH-8u-t3h" collectionClass="NSMutableArray" id="aCY-a4-to5"/>
+                        <outletCollection property="buttons" destination="gTT-nP-4z5" collectionClass="NSMutableArray" id="abl-pR-dkQ"/>
+                        <outletCollection property="buttons" destination="Hg1-BR-pWa" collectionClass="NSMutableArray" id="u6N-UC-Tr6"/>
+                        <outletCollection property="buttons" destination="GFH-3i-44b" collectionClass="NSMutableArray" id="GLQ-5f-nJp"/>
+                        <segue destination="TV3-f7-14P" kind="show" identifier="ageButton" id="jcn-gh-gvX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="86"/>
+            <point key="canvasLocation" x="54" y="85"/>
+        </scene>
+        <!--Set Parameters View Controller-->
+        <scene sceneID="eMJ-8J-UmR">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="TV3-f7-14P" customClass="SetParametersViewController" customModule="CalculatorBMI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6P5-Qh-wR4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="COK-PQ-hRg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="I3f-nD-402"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VjU-cN-e4b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="746" y="85"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

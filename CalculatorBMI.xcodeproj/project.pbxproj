@@ -9,27 +9,29 @@
 /* Begin PBXBuildFile section */
 		4D440C3A27B6CB1C0089C31B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D440C3927B6CB1C0089C31B /* AppDelegate.swift */; };
 		4D440C3C27B6CB1C0089C31B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D440C3B27B6CB1C0089C31B /* SceneDelegate.swift */; };
-		4D440C3E27B6CB1C0089C31B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D440C3D27B6CB1C0089C31B /* ViewController.swift */; };
+		4D440C3E27B6CB1C0089C31B /* SelectAgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D440C3D27B6CB1C0089C31B /* SelectAgeViewController.swift */; };
 		4D440C4127B6CB1C0089C31B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D440C3F27B6CB1C0089C31B /* Main.storyboard */; };
 		4D440C4327B6CB1D0089C31B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D440C4227B6CB1D0089C31B /* Assets.xcassets */; };
 		4D440C4627B6CB1D0089C31B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D440C4427B6CB1D0089C31B /* LaunchScreen.storyboard */; };
 		4D440C5427B6F2480089C31B /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D440C5327B6F2480089C31B /* NibLoadable.swift */; };
-		4D440C5727B6F3B40089C31B /* TestComponent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D440C5627B6F3B40089C31B /* TestComponent.xib */; };
-		4D440C5927B6F3FA0089C31B /* TestComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D440C5827B6F3FA0089C31B /* TestComponent.swift */; };
+		4D440C5E27B7BE440089C31B /* AgeButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D440C5D27B7BE440089C31B /* AgeButton.xib */; };
+		4D440C6027B7BE640089C31B /* AgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D440C5F27B7BE640089C31B /* AgeButton.swift */; };
+		4D440C6227B7D8B30089C31B /* SetParametersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D440C6127B7D8B30089C31B /* SetParametersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D440C3627B6CB1C0089C31B /* CalculatorBMI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorBMI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D440C3927B6CB1C0089C31B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D440C3B27B6CB1C0089C31B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D440C3D27B6CB1C0089C31B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D440C3D27B6CB1C0089C31B /* SelectAgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAgeViewController.swift; sourceTree = "<group>"; };
 		4D440C4027B6CB1C0089C31B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D440C4227B6CB1D0089C31B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D440C4527B6CB1D0089C31B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D440C4727B6CB1D0089C31B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D440C5327B6F2480089C31B /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
-		4D440C5627B6F3B40089C31B /* TestComponent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestComponent.xib; sourceTree = "<group>"; };
-		4D440C5827B6F3FA0089C31B /* TestComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestComponent.swift; sourceTree = "<group>"; };
+		4D440C5D27B7BE440089C31B /* AgeButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AgeButton.xib; sourceTree = "<group>"; };
+		4D440C5F27B7BE640089C31B /* AgeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeButton.swift; sourceTree = "<group>"; };
+		4D440C6127B7D8B30089C31B /* SetParametersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetParametersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +111,8 @@
 		4D440C5127B6CB960089C31B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				4D440C3D27B6CB1C0089C31B /* ViewController.swift */,
+				4D440C3D27B6CB1C0089C31B /* SelectAgeViewController.swift */,
+				4D440C6127B7D8B30089C31B /* SetParametersViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -117,19 +120,19 @@
 		4D440C5227B6F1DE0089C31B /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				4D440C5527B6F2BF0089C31B /* TestComponent */,
 				4D440C5327B6F2480089C31B /* NibLoadable.swift */,
+				4D440C5C27B7BD8F0089C31B /* AgeButton */,
 			);
 			path = Components;
 			sourceTree = "<group>";
 		};
-		4D440C5527B6F2BF0089C31B /* TestComponent */ = {
+		4D440C5C27B7BD8F0089C31B /* AgeButton */ = {
 			isa = PBXGroup;
 			children = (
-				4D440C5627B6F3B40089C31B /* TestComponent.xib */,
-				4D440C5827B6F3FA0089C31B /* TestComponent.swift */,
+				4D440C5D27B7BE440089C31B /* AgeButton.xib */,
+				4D440C5F27B7BE640089C31B /* AgeButton.swift */,
 			);
-			path = TestComponent;
+			path = AgeButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,10 +193,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D440C5727B6F3B40089C31B /* TestComponent.xib in Resources */,
 				4D440C4627B6CB1D0089C31B /* LaunchScreen.storyboard in Resources */,
 				4D440C4327B6CB1D0089C31B /* Assets.xcassets in Resources */,
 				4D440C4127B6CB1C0089C31B /* Main.storyboard in Resources */,
+				4D440C5E27B7BE440089C31B /* AgeButton.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,11 +207,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D440C5927B6F3FA0089C31B /* TestComponent.swift in Sources */,
-				4D440C3E27B6CB1C0089C31B /* ViewController.swift in Sources */,
+				4D440C3E27B6CB1C0089C31B /* SelectAgeViewController.swift in Sources */,
 				4D440C5427B6F2480089C31B /* NibLoadable.swift in Sources */,
+				4D440C6027B7BE640089C31B /* AgeButton.swift in Sources */,
 				4D440C3A27B6CB1C0089C31B /* AppDelegate.swift in Sources */,
 				4D440C3C27B6CB1C0089C31B /* SceneDelegate.swift in Sources */,
+				4D440C6227B7D8B30089C31B /* SetParametersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AgeButton" customModule="CalculatorBMI" customModuleProvider="target">
+            <connections>
+                <outlet property="button" destination="oct-el-kOo" id="Ozr-Bx-v58"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="p0z-oK-LgX">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oct-el-kOo">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="150"/>
+                    <color key="backgroundColor" systemColor="systemTealColor"/>
+                    <color key="tintColor" red="0.68050694830000003" green="0.5610177784" blue="0.87602690080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Button" titleAlignment="center">
+                        <fontDescription key="titleFontDescription" type="boldSystem" pointSize="22"/>
+                        <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="onTap:" destination="-1" eventType="touchUpInside" id="FiF-Yb-uSy"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="59c-ty-BrQ"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="oct-el-kOo" firstAttribute="leading" secondItem="59c-ty-BrQ" secondAttribute="leading" id="05L-Ua-UvK"/>
+                <constraint firstItem="59c-ty-BrQ" firstAttribute="trailing" secondItem="oct-el-kOo" secondAttribute="trailing" id="F5x-SK-jd9"/>
+                <constraint firstItem="oct-el-kOo" firstAttribute="top" secondItem="p0z-oK-LgX" secondAttribute="top" id="RoO-r0-zOR"/>
+                <constraint firstItem="59c-ty-BrQ" firstAttribute="bottom" secondItem="oct-el-kOo" secondAttribute="bottom" id="gn0-Wy-SJR"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="57.971014492753625" y="96.428571428571431"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
