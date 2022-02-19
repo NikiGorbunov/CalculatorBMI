@@ -20,7 +20,7 @@ class AgeButton: UIView, NibLoadable {
     
     @IBInspectable var text: String {
         get {
-            return button.title(for: .normal)!
+            return button.title(for: .normal) ?? ""
         }
         
         set(text) {
@@ -44,7 +44,7 @@ class AgeButton: UIView, NibLoadable {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         loadFromNib()
-        
+        layer.masksToBounds = true
         backgroundColor = .clear
     }
     
@@ -52,7 +52,7 @@ class AgeButton: UIView, NibLoadable {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        button.layer.cornerRadius = button.frame.height / 2
+        layer.cornerRadius = frame.height / 2
     }
     
     // MARK: - IB Actions

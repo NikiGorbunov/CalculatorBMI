@@ -17,6 +17,7 @@
 		4D440C5E27B7BE440089C31B /* AgeButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D440C5D27B7BE440089C31B /* AgeButton.xib */; };
 		4D440C6027B7BE640089C31B /* AgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D440C5F27B7BE640089C31B /* AgeButton.swift */; };
 		4D440C6227B7D8B30089C31B /* SetParametersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D440C6127B7D8B30089C31B /* SetParametersViewController.swift */; };
+		4D6F554427C118980070ACEB /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F554327C118980070ACEB /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		4D440C5D27B7BE440089C31B /* AgeButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AgeButton.xib; sourceTree = "<group>"; };
 		4D440C5F27B7BE640089C31B /* AgeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeButton.swift; sourceTree = "<group>"; };
 		4D440C6127B7D8B30089C31B /* SetParametersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetParametersViewController.swift; sourceTree = "<group>"; };
+		4D6F554327C118980070ACEB /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			children = (
 				4D440C3D27B6CB1C0089C31B /* SelectAgeViewController.swift */,
 				4D440C6127B7D8B30089C31B /* SetParametersViewController.swift */,
+				4D6F554327C118980070ACEB /* AboutViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				4D440C3E27B6CB1C0089C31B /* SelectAgeViewController.swift in Sources */,
 				4D440C5427B6F2480089C31B /* NibLoadable.swift in Sources */,
 				4D440C6027B7BE640089C31B /* AgeButton.swift in Sources */,
+				4D6F554427C118980070ACEB /* AboutViewController.swift in Sources */,
 				4D440C3A27B6CB1C0089C31B /* AppDelegate.swift in Sources */,
 				4D440C3C27B6CB1C0089C31B /* SceneDelegate.swift in Sources */,
 				4D440C6227B7D8B30089C31B /* SetParametersViewController.swift in Sources */,
@@ -359,9 +363,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S34BZ3639A;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CalculatorBMI/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -377,6 +381,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nastia.CalculatorBMI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -388,9 +393,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S34BZ3639A;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CalculatorBMI/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -406,6 +411,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nastia.CalculatorBMI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
