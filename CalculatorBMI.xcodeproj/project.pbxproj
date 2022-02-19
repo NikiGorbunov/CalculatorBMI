@@ -18,6 +18,7 @@
 		4D440C6027B7BE640089C31B /* AgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D440C5F27B7BE640089C31B /* AgeButton.swift */; };
 		4D440C6227B7D8B30089C31B /* SetParametersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D440C6127B7D8B30089C31B /* SetParametersViewController.swift */; };
 		4D6F554427C118980070ACEB /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F554327C118980070ACEB /* AboutViewController.swift */; };
+		4D6F554827C149EC0070ACEB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F554727C149EC0070ACEB /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		4D440C5F27B7BE640089C31B /* AgeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeButton.swift; sourceTree = "<group>"; };
 		4D440C6127B7D8B30089C31B /* SetParametersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetParametersViewController.swift; sourceTree = "<group>"; };
 		4D6F554327C118980070ACEB /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		4D6F554727C149EC0070ACEB /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				4D440C3D27B6CB1C0089C31B /* SelectAgeViewController.swift */,
 				4D440C6127B7D8B30089C31B /* SetParametersViewController.swift */,
 				4D6F554327C118980070ACEB /* AboutViewController.swift */,
+				4D6F554727C149EC0070ACEB /* TabBarViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6F554827C149EC0070ACEB /* TabBarViewController.swift in Sources */,
 				4D440C3E27B6CB1C0089C31B /* SelectAgeViewController.swift in Sources */,
 				4D440C5427B6F2480089C31B /* NibLoadable.swift in Sources */,
 				4D440C6027B7BE640089C31B /* AgeButton.swift in Sources */,
