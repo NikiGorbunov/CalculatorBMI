@@ -8,12 +8,10 @@
 import UIKit
 
 class TabBarViewController: UITabBarController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tabBar.backgroundImage = UIImage()
         tabBar.shadowImage = UIImage()
     }
-    
-
 }
