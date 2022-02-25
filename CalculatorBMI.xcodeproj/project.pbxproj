@@ -18,6 +18,7 @@
 		4D440C6027B7BE640089C31B /* AgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D440C5F27B7BE640089C31B /* AgeButton.swift */; };
 		4D440C6227B7D8B30089C31B /* SetParametersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D440C6127B7D8B30089C31B /* SetParametersViewController.swift */; };
 		4D6F554827C149EC0070ACEB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F554727C149EC0070ACEB /* TabBarViewController.swift */; };
+		CD69FA7A27C959BF00D2F67A /* Estimation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD69FA7927C959BF00D2F67A /* Estimation.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		4D440C5F27B7BE640089C31B /* AgeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeButton.swift; sourceTree = "<group>"; };
 		4D440C6127B7D8B30089C31B /* SetParametersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetParametersViewController.swift; sourceTree = "<group>"; };
 		4D6F554727C149EC0070ACEB /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		CD69FA7927C959BF00D2F67A /* Estimation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Estimation.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		4D440C4F27B6CB6A0089C31B /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				CD69FA7927C959BF00D2F67A /* Estimation.storyboard */,
 				4D440C3F27B6CB1C0089C31B /* Main.storyboard */,
 				4D440C4427B6CB1D0089C31B /* LaunchScreen.storyboard */,
 			);
@@ -200,6 +203,7 @@
 				4D440C4327B6CB1D0089C31B /* Assets.xcassets in Resources */,
 				4D440C4127B6CB1C0089C31B /* Main.storyboard in Resources */,
 				4D440C5E27B7BE440089C31B /* AgeButton.xib in Resources */,
+				CD69FA7A27C959BF00D2F67A /* Estimation.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,9 +367,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = PM8F5XKSQ6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CalculatorBMI/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -374,12 +379,13 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nastia.CalculatorBMI;
+				PRODUCT_BUNDLE_IDENTIFIER = nikita.CalculatorBMI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -393,9 +399,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = PM8F5XKSQ6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CalculatorBMI/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -404,12 +411,13 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nastia.CalculatorBMI;
+				PRODUCT_BUNDLE_IDENTIFIER = nikita.CalculatorBMI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
